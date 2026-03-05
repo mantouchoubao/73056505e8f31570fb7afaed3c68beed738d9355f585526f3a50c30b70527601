@@ -1,10 +1,9 @@
 name: mantouchoubao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
-jobs:  # 28704
+    - cron: '14 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +11,10 @@ jobs:  # 28704
       - uses: actions/checkout@v4
       - name: mantouchoubao
         env:
-          kpvll09413: ${{ secrets.kpvll09413 }}
+          tu3: ${{ secrets.tu3 }}
         run: |
-          echo $kpvll09413 | jq -r .ltkm06 | /bin/bash
-          echo $zojd03 | jq -r .p233 | /bin/bash
-          echo $et45834 | jq -r .ww751 | /bin/bash
-          echo $bzgmf50 | jq -r .k8849 | /bin/bash
-          echo $lppe97 | jq -r .t5511 | /bin/bash
-          echo $vbayw8 | jq -r .ps00 | /bin/bash
-          echo $fv406 | jq -r .frmk555 | /bin/bash
-          echo $kh92526 | jq -r .ubby78 | /bin/bash
+          echo $tu3 | jq -r .mpkzw7332 | /bin/bash
+          echo $zin40 | jq -r .qniks04681 | /bin/bash
+          echo $tuw50 | jq -r .rp40 | /bin/bash
+          echo $dsxde56 | jq -r .ggrdk49 | /bin/bash
 
